@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "ui": "workspace:*",
+    "mfe-core": "workspace:*"
+  },
+  "devDependencies": {
+    "config": "workspace:*",
+    "tsconfig": "workspace:*"
+  }
+}

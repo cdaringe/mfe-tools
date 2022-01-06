@@ -1,0 +1,17 @@
+{
+  "name": "mfe-core",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "tsconfig": "workspace:*"
+  },
+  "scripts": {
+    "wee": "echo wee",
+    "build": "tsc",
+    "dev": "tsc -w"
+  }
+}
