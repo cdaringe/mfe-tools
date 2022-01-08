@@ -8,8 +8,6 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "compile": "tsc",
-    "prebuild": "rm -rf src/generated && gqty generate",
-    "build": "run-s prebuild compile"
+    "build": "rm -rf src/generated && gqty generate && tsc"
   }
 }

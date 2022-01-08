@@ -40,7 +40,6 @@ export const client = createClient<
   schema: generatedSchema,
   scalarsEnumsHash,
   queryFetcher,
-  normalization: false,
 });
 
 const { query, mutation, mutate, subscription, resolved, refetch, track } =
