@@ -1,0 +1,15 @@
+{
+  "name": "mfe-admin-gql-client",
+  "description": "mef-admin-gql-client",
+  "authors": "author",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "prebuild": "rm -rf src/generated && gqty generate",
+    "build": "run-s prebuild compile"
+  }
+}

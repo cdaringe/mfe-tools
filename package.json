@@ -7,6 +7,7 @@
     "packages/*"
   ],
   "scripts": {
+    "generate": "turbo run generate",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
@@ -15,13 +16,18 @@
   "dependencies": {
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "gqty": "^2.1.0",
+    "graphql": "^16.2.0"
   },
   "devDependencies": {
+    "@gqty/cli": "^3.0.1",
+    "@gqty/react": "^2.1.0",
     "@types/react": "17.0.37",
     "@types/react-dom": "17.0.11",
     "eslint": "7.32.0",
     "next-transpile-modules": "9.0.0",
+    "npm-run-all": "^4.1.5",
     "parcel": "2.0.1",
     "prettier": "^2.5.1",
     "turbo": "latest",
@@ -38,7 +44,6 @@
           ".next/**"
         ]
       },
-      "wee": {},
       "lint": {
         "outputs": []
       },

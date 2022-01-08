@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "config": "workspace:*",
-    "tsconfig": "workspace:*"
+    "tsconfig": "workspace:*",
+    "mfe-admin-gql-client": "workspace:*"
   }
 }
