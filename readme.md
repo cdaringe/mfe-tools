@@ -4,8 +4,8 @@
 
 To make the demo portable, `docker-compose` is required
 
-- start the GQL server, `node start-gql.js`
 - `npx pnpm install` (or just `pnpm install` :))
+- start the GQL server, `node start-gql.js`
 - `npm run build && npm run dev`
 - Open `http://localhost:1234`, observe infinite loop
   - the `gqty` query is very small, simple and present at the top of `apps/deploy/components/pages/home.tsx`

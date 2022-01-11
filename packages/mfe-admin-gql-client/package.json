@@ -8,6 +8,6 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf src/generated && gqty generate && tsc"
+    "build": "tsc"
   }
 }
